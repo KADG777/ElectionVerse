@@ -2,6 +2,8 @@
 
 Godot **4.7.2**、GDScript、原生 Control/HTTPRequest 的单人 2D 多 Agent 叙事原型。玩家与陈远争取七位居民的选票，三轮事件分别是工厂扩建、公共预算与暴雨损桥。默认 **Mock 离线模式**，无需 Key 即可完整游玩。
 
+GitHub 仓库：[KADG777/ElectionVerse](https://github.com/KADG777/ElectionVerse)。凭据忽略规则与提交前检查见 [SECURITY.md](SECURITY.md)。运行日志、存档、缓存与验证截图保留在本地，不纳入 Git；可用测试入口重新生成验证结果。
+
 ## 打开与游玩
 
 双击 `启动游戏.cmd`；或用 Godot 打开 `project.godot`，按 F6/F5 运行。当前开发位置为 `D:/CS Games/ElectionVerse`，与之前两个游戏独立。启动脚本优先使用 `engine/Godot.exe`，否则使用本机 `D:/godot/Godot_v4.7.2-stable_win64.exe`。源码包不包含引擎；换电脑需安装 Godot 或加入便携引擎。

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "teacher", "name": "林老师", "profession": "小学教师", "role": "resident",
+    "background": "在社区小学任教十五年，关心孩子的学习环境，也担心公共讨论沦为口号。与许医生常一起组织儿童安全活动。",
+    "personality": {"traits": ["理性", "温和", "具有责任感", "重视证据", "关注长期收益"], "risk_tolerance": 0.32, "openness": 0.68},
+    "priorities": {"education": 5, "economy": 2, "environment": 3, "health": 3, "transparency": 4, "elderly": 2, "safety": 4, "innovation": 3, "cost": 3},
+    "relationships": {"player": 0, "opponent": 0, "doctor": 12}
+  },
+  {
+    "id": "worker", "name": "周师傅", "profession": "工厂技术工人", "role": "resident",
+    "background": "经历过工厂停产，家里还有房贷。希望工作稳定，但不愿用家人的健康换就业。与赵老板有多年街坊交情。",
+    "personality": {"traits": ["直率", "固执", "重视家庭", "务实", "重视承诺兑现"], "risk_tolerance": 0.48, "openness": 0.42},
+    "priorities": {"education": 2, "economy": 5, "environment": 3, "health": 4, "transparency": 3, "elderly": 2, "safety": 5, "innovation": 2, "cost": 4},
+    "relationships": {"player": 0, "opponent": 0, "merchant": 10}
+  },
+  {
+    "id": "doctor", "name": "许医生", "profession": "社区医生", "role": "resident",
+    "background": "长期接诊社区居民，了解空气污染和老龄化带来的压力。希望政策讲清楚健康风险、经费来源和执行标准。",
+    "personality": {"traits": ["谨慎", "专业", "坚持原则", "重视证据", "关心弱势群体"], "risk_tolerance": 0.22, "openness": 0.58},
+    "priorities": {"education": 3, "economy": 2, "environment": 5, "health": 5, "transparency": 4, "elderly": 4, "safety": 4, "innovation": 2, "cost": 3},
+    "relationships": {"player": 0, "opponent": 0, "teacher": 12, "elder": 8}
+  },
+  {
+    "id": "founder", "name": "苏晴", "profession": "返乡创业者", "role": "resident",
+    "background": "大学毕业后回到青岚镇，经营节能与数字技术小公司，想让年轻人在本地找到机会。欣赏大胆的新方案，但讨厌缺乏执行办法的口号，要求有可验证的试点和退出机制。",
+    "personality": {"traits": ["活泼", "开放", "有冒险精神", "愿意尝试"], "risk_tolerance": 0.76, "openness": 0.9},
+    "priorities": {"education": 4, "economy": 5, "environment": 3, "health": 2, "transparency": 4, "elderly": 1, "safety": 2, "innovation": 5, "cost": 3},
+    "relationships": {"player": 0, "opponent": 0, "reporter": 6}
+  },
+  {
+    "id": "elder", "name": "王奶奶", "profession": "退休居民", "role": "resident",
+    "background": "退休后照顾老伴，也帮邻居照看孩子。最在意养老、社区安全和生活成本，记得熟人的亲历和长期信誉，对说得好听却反复变动的承诺十分敏感。",
+    "personality": {"traits": ["保守", "重感情", "记忆力好", "看重可靠的人"], "risk_tolerance": 0.16, "openness": 0.3},
+    "priorities": {"education": 2, "economy": 2, "environment": 3, "health": 5, "transparency": 3, "elderly": 5, "safety": 5, "innovation": 1, "cost": 4},
+    "relationships": {"player": 0, "opponent": 0, "doctor": 8}
+  },
+  {
+    "id": "merchant", "name": "赵老板", "profession": "本地超市经营者", "role": "resident",
+    "background": "在镇上经营超市二十年，熟悉居民需求。优先考虑税收、商业环境和基础设施，也重视候选人的信誉，会追问预算以及施工对生意的影响。",
+    "personality": {"traits": ["精明", "现实", "善于观察", "注重成本"], "risk_tolerance": 0.55, "openness": 0.5},
+    "priorities": {"education": 2, "economy": 5, "environment": 2, "health": 3, "transparency": 3, "elderly": 2, "safety": 4, "innovation": 3, "cost": 5},
+    "relationships": {"player": 0, "opponent": 0, "worker": 10}
+  },
+  {
+    "id": "reporter", "name": "李记者", "profession": "地方媒体记者", "role": "resident",
+    "background": "持续报道社区公共事务，会记录双方的原话并核对前后承诺。支持公开资料、独立监督和能被追责的决策。",
+    "personality": {"traits": ["好奇", "敏锐", "追求事实", "独立", "追问细节"], "risk_tolerance": 0.45, "openness": 0.82},
+    "priorities": {"education": 3, "economy": 3, "environment": 4, "health": 3, "transparency": 5, "elderly": 2, "safety": 3, "innovation": 4, "cost": 3},
+    "relationships": {"player": 0, "opponent": 0, "founder": 6}
+  }
+]
